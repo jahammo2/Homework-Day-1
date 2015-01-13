@@ -1,0 +1,170 @@
+/*backgrounds*/
+
+body {
+	background-color:#EB1767;
+	color: white;
+	background-size: auto 100%;
+	background-attachment: fixed;
+}
+
+#second {
+	background: url("img/man-coding.png") center no-repeat;
+/*	opacity: 1;*/
+	background-size: auto 100%;
+	background-attachment: fixed;
+	z-index: -1; 
+	position: relative;
+}
+
+/*#transparent {
+	background: rgba(5,5,5,.5);
+	position: relative;
+
+	width: 100%;
+	margin-left: .47em;
+	padding-right: 1.8em;
+}*/
+
+/*	z-index: 5;*/
+/*	margin-left: -1em;
+	padding-right: 1.8em;
+	background-size: auto 100%;
+	background-attachment: fixed;*/
+
+/*
+#second{
+	position: relative;
+	margin-left: -1em;
+	padding-right: 1.8em;
+}
+
+#second::after {
+	content: "";
+	background: url("img/man-coding.png") center no-repeat;
+	opacity: .8;
+	background-size: auto 100%;
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1; 
+	position: absolute;
+}*/
+
+/*text sizes*/
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+/*Header properties*/
+
+header {
+	float: left;
+	background: #AE1F58;
+	position: fixed;
+	width: 100%;
+	margin-top: -1.25em;
+	margin-left: -1.2em;
+/*	margin-right: -1.2em;*/
+	padding-right: 1em;
+	height: 120px;
+}
+
+header ul {
+	list-style: none;
+	text-align: right;
+	float: right;
+/*	padding-right: 1.2em;*/
+	padding-top: 2.15em;
+	font-size: 1.1em;
+/*	position: relative;
+	vertical-align: middle;*/
+
+}
+
+header li {
+	display: inline-block;
+	padding-right:2.5em;
+}
+
+header a {
+	float: left;
+	padding-left: 3em;
+	padding-top: 2em;
+}
+
+/*Divs*/
+
+#wrapper {
+	padding-top: 5.5em;
+}
+
+div {
+	width: 58%;
+	margin: auto;
+	padding-top: ;
+}
+
+#wrapper, #second{
+	width: 100%;
+}
+
+/*the second/third div*/
+
+#second {
+	margin-left: -1em;
+	padding: 4em 1.5em 4em 0;
+}
+
+#second p {
+	width: 58%;
+	margin: 1em auto;
+	padding: 4em auto;
+/*	z-index: 1;*/
+	position: relative;
+}
+
+#second h2 {
+	width: 58%;
+	margin: auto;
+}
+
+/*#third h2 {
+	width: 100%;
+}*/
+
+/*Wrapper images*/
+
+#first img {
+	width: 120%;
+	margin: 0 -10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
